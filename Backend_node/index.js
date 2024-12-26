@@ -8,8 +8,7 @@ const PORT = 3001;
 app.use(cors());
 app.use(express.json());
 
-const uri =
-  "mongodb+srv://shivpatelva:RqixH8VCKsKivu4R@capuva.ub0uj.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongastring";
 const client = new MongoClient(uri);
 
 let db;
