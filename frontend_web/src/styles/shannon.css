@@ -1,0 +1,40 @@
+/* Shannon-specific styles */
+.building-detail-header {
+  text-align: center;
+  font-size: 2rem;
+  color: #0054a6; /* Shannon-specific color */
+  margin-bottom: 30px;
+}
+
+.library-hours-container {
+  border: 2px solid #0054a6;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 30px;
+  background-color: #e0f3ff; /* Light blue */
+}
+
+.library-hours-day.active {
+  background-color: #d8e9f6;
+  font-weight: bold;
+  border-color: #0054a6;
+}
+
+.location-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.location-box {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  width: 100%;
+  max-width: 600px;
+}
